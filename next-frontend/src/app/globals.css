@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Albert Sans', sans-serif !important;
+  background-color: #f3f2f2 !important;
+}
+
+a {
+  color: #1e75f7 !important;
+}
+
+:root {
+  --primary1: #D63484;
+  --primary2: #FF9BD2;
+  --primary3: #402B3A;
+  --primary4: #F8F4EC;
+}
+
+#globalLoader {
+  transform: translate(-50%, -50%);
+}
